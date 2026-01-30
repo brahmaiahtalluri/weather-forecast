@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Professional Signup</title>
+    <link rel="stylesheet" href="signup.css">
+    <script type="module" src="./signup.js" defer></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="signup-box">
+            <h2>Create Account</h2>
+            <p class="subtitle">Join us and get started</p>
+
+            <div class="row">
+                <div class="form-group">
+                    <label for="firstName">First Name</label>
+                    <input type="text" id="firstName" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="lastName">Last Name</label>
+                    <input type="text" id="lastName" required>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="username">Username</label>
+                <input type="text" id="username" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" required>
+                <p id="message-email"></p>
+            </div>
+
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" required>
+                <p id="message-password"></p>
+            </div>
+
+            <div class="form-group">
+                <label for="confirmPassword">Confirm Password</label>
+                <input type="password" id="confirmPassword" required>
+                <p id="message-confirm-password"></p>
+            </div>
+
+            <button type="submit" id="signup-btn">Sign Up</button>
+
+            <p class="login-text">
+                Already have an account? <a href="../Login/index.html">Login</a>
+            </p>
+        </div>
+    </div>
+
+</body>
+
+</html>

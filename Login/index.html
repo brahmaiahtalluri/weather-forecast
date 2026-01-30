@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="login.css">
+    <script type="module" src="./login.js" defer></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <h2>Welcome Back</h2>
+
+        <div class="input-group">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="Enter your email" required>
+        </div>
+
+        <div class="input-group">
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" placeholder="Enter your password" required>
+        </div>
+        <p class="error-message" id="error-message"></p>
+
+        <div class="btn-group">
+            <button type="submit" class="login-btn" id="login-btn">Login</button>
+            <button type="button" class="signup-btn" id="signup-btn">Sign Up</button>
+        </div>
+    </div>
+    
+</body>
+
+</html>
