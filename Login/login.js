@@ -5,7 +5,7 @@ const signupBtn = document.getElementById("signup-btn");
 const loginBtn = document.getElementById("login-btn");
 
 signupBtn.addEventListener('click', () => {
-    window.location.href = "../signup/signup.html";
+    window.location.href = "./Signup/signup.html";
 })
 
 loginBtn.addEventListener('click', () => {
