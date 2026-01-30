@@ -53,7 +53,7 @@ async function registerUser(email, password) {
         await createUserWithEmailAndPassword(auth, email, password);
         alert("Registration sucessfull");
         console.log("end")
-        window.location.href = "../Login/index.html";
+        window.location.href = "../index.html";
     } catch (error) {
         console.log("Registration is unsucessful")
         alert("Registration is unsucessful");

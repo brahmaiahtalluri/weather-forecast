@@ -24,7 +24,7 @@ async function loginUser(email, password) {
 
         await signInWithEmailAndPassword(auth, email, password);
         console.log("end")
-        window.location.href = "../wether.html";
+        window.location.href = "./wether/wether.html";
     } catch (error) {
         console.error("unsucessful: " + error);
 
